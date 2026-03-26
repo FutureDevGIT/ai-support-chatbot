@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Uploads
+uploads/
+
+# Vector DB (local storage)
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
