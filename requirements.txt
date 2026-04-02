@@ -3,5 +3,5 @@ uvicorn[standard]
 python-multipart
 pydantic
 groq
-pypdf2
+pypdf
 python-dotenv
