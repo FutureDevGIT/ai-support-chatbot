@@ -1,12 +1,7 @@
-from sentence_transformers import SentenceTransformer
+from groq import Groq
+import os
 
-_model = None
-
-def get_model():
-    global _model
-    if _model is None:
-        _model = SentenceTransformer("all-MiniLM-L6-v2")
-    return _model
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def embed_text(text: str):
-    return get_model().encode(text).tolist()
+    return text
