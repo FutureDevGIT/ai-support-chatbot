@@ -2,8 +2,6 @@ fastapi
 uvicorn[standard]
 python-multipart
 pydantic
-chromadb
-sentence-transformers
 groq
 pypdf2
 python-dotenv
